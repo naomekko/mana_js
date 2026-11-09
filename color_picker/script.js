@@ -6,7 +6,7 @@ const colorBg = () => {
     if (color.value === "#ffffff") {
         color_c.textContent = `カラーコード:${color.value}（white）`
     } else if (color.value === "#000000") {
-        color_c.textContent = `カラーコード:${color.value}(black)`
+        color_c.textContent = `カラーコード:${color.value}gi(black)`
     } else {
         color_c.textContent = `カラーコード:${color.value}`
     }
