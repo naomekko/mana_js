@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <title>Document</title>
+    <style>
+        .wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .row {
+            margin-bottom: 20px;
+        }
+
+        #c_box {
+            margin-right: 5px;
+        }
+
+        #s_btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #c9dbd6;
+            border-radius: 10px;
+            color: #858080;
+        }
+
+        #s_btn.able {
+            background-color: #5d925d;
+            color: #302f2f;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="#">
+            <p class="row">
+                <label><input type="checkbox" id="c_box">利用規約に同意する。</label>
+            </p>
+            <input type="submit" value="送信する" id="s_btn" disabled>
+
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

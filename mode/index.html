@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #switch {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 1px solid #000;
+            font-size: 18px;
+            color: #000000;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .darktheme {
+            background: linear-gradient(rgb(30, 30, 34), rgb(45, 44, 44));
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        body.darktheme #switch {
+            background-color: #fff;
+        }
+
+        body.darktheme h1,
+        body.darktheme p {
+            color: #fff;
+        }
+
+        .warpper {
+            max-width: 1000px;
+            padding: 10px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="warpper">
+        <a id="switch" href="#">ダークライトにする</a>
+        <h1>タイトル</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsa enim eius facere distinctio quos ullam
+            earum quaerat. Magni consequuntur doloribus porro laboriosam cumque, earum officia sequi sint consectetur
+            aliquid!</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

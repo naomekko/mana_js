@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <title>Document</title>
+    <style>
+        .warpper {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        textarea {
+            width: 500px;
+            border: 1px solid #000;
+            padding: 5px;
+        }
+
+        #count {
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 0 10px;
+        }
+
+        #count.attention {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="warpper">
+        <textarea name="text" id="text"></textarea>
+        <p>100文字以内で入力する</p>
+        <p>現在<span id="count">0</span>/100文字</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

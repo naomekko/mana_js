@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <title>Document</title>
+    <style>
+        .wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        #menu {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+        }
+
+        #menu img {
+            max-width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>フルーツメニュー</h1>
+        <div id="menu"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
